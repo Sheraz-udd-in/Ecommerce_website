@@ -15,7 +15,7 @@ from rest_framework.response import Response
 
 from .models import Product, Cart, CartItem, Order
 from .permissions import IsVendor
-from .serializers import ProductSerializer, CartItemSerializer, OrderSerializer
+from .serializer import ProductSerializer, CartItemSerializer, OrderSerializer
 from django.contrib.auth import get_user_model
 
 @api_view(['GET'])
