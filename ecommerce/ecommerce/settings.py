@@ -92,6 +92,7 @@ REST_FRAMEWORK = {
         'user': '100/hour',
         'anon': '10/minute',
     },
+    # first step of jwt authentication
     'DEFAULT_AUTHENTICATION_CLASSES': (
     'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
